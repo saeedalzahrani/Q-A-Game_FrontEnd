@@ -1,0 +1,101 @@
+.supoort{
+    width: 800px;
+    max-height: 800px;
+    padding:30px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba($color: #000000, $alpha: 0.8);
+    margin: 20px;
+    border-radius: 24px;
+    text-align: center;
+    z-index: 2;
+    font-family: 'Skranji', cursive;
+  }
+  .supoort h3{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    z-index: 2;
+  
+  }
+  .supoort input[type = "text"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #22313a;
+  padding: 14px 10px;
+  width:200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  z-index: 2;
+  }
+  .supoort input[type = "Email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #22313a;
+    padding: 14px 10px;
+    width:200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    z-index: 2;
+    }
+    .supoort textarea[type = "text"]{
+        max-height: 200px;
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #22313a;
+        padding: 14px 10px;
+        width:200px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        z-index: 2;
+        }
+  
+.supoort input[type = "Email"]:focus,.supoort input[type = "text"]:focus{
+    width: 40%;
+    border-color: goldenrod;
+    z-index: 2;
+  
+  }
+  .supoort textarea[type = "text"]:focus{
+   
+    width: 80%;
+    border-color: goldenrod;
+    z-index: 2;
+   
+  }
+  
+  .supoort button[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid goldenrod;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    z-index: 2;
+  
+  }
+  .supoort button[type = "submit"]:hover{
+    background: goldenrod;
+    z-index: 2;
+  }
+  

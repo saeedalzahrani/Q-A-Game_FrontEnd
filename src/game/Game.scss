@@ -1,0 +1,74 @@
+.question{
+    width: 800px;
+    max-height: 800px;
+    padding:30px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba($color: #000000, $alpha: 0.8);
+    margin: 20px;
+    text-align: center;
+    z-index: 2;
+    font-family: 'Skranji', cursive;
+    color: white;
+    border-radius: 24px;
+  }
+  .question .question-true-button{
+    text-decoration: none;
+    background: none;
+    text-align: center;
+    border: 2px solid goldenrod;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    z-index: 2;
+    margin: 7px;
+  
+}
+
+.question .question-false-button{
+    text-decoration: none;
+    background: none;
+    text-align: center;
+    border: 2px solid goldenrod;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    z-index: 2;
+    margin: 7px;
+  
+}
+
+.question .question-true-button:hover{
+    background: green;
+}
+.question .question-false-button:hover{
+    background: red;
+}
+
+.Game-over .question-playagine-button{
+    background: goldenrod;
+    text-decoration: none;
+    background: none;
+    text-align: center;
+    border: 2px solid goldenrod;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    z-index: 2;
+    margin: 7px;
+
+}
+.question-playagine-button:hover{
+    background: goldenrod;
+}
